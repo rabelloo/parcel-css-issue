@@ -1,0 +1,5 @@
+@use './global.scss';
+
+:global {
+  @include global.green;
+}
