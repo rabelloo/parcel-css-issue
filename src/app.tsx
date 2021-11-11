@@ -1,4 +1,4 @@
-import * as styles from './app.scss';
+import * as styles from './app.module.scss';
 
 export const App = () => (
   <>
