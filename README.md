@@ -14,4 +14,4 @@ Neither class applies (or is loaded) in the app, global or CSS module.
 #### In order to fix the issue, either:
 
 - `ts-import` branch imports `index.scss` in `index.tsx` rather than referencing stylesheet in `index.html`
-- `no-postcssrc` branch disables CSS modules for all files in `.postcssrc.json`, and renames `app.module.scss`
+- `no-postcssrc` branch deletes `.postcssrc.json` (thus disabling CSS modules for all files), renames `app.module.scss`, and removes `:global` rule
